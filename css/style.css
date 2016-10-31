@@ -1,0 +1,36 @@
+.wrapper{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.title{
+  color: #222;
+  width:100%;
+  box-sizing: border-box;
+}
+
+.title h1, h2{ 
+  padding-left: 20%;
+  padding-right: 20%;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 400;
+  font-size: 20pt;
+}
+
+.title h1{
+    font-weight: 900i;
+    font-size: 50pt;
+}
+
+
+@media(min-width: 760px){
+  
+  .wrapper{
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 800px;
+  }
+
+}
+
+
