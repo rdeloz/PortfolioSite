@@ -14,12 +14,13 @@
   padding-right: 20%;
   font-family: 'Roboto', sans-serif; 
   font-weight: 400;
-  font-size: 20pt;
+  font-size: 24pt;
+    line-height: 20pt;
 }
 
 .title h1{
-    font-weight: 900i;
-    font-size: 50pt;
+    font-weight: 900;
+    font-size: 36pt;
 }
 
 
