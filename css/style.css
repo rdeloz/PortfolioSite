@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-.title h1, h2{ 
+.title h1, .title h2{ 
   padding-left: 20%;
   padding-right: 20%;
   font-family: 'Roboto', sans-serif; 
