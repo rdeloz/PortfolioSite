@@ -1,6 +1,13 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid yellow;
+}
+
 .wrapper{
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 2%;
+  margin-right: 2%;
+    margin-top: -50px;
+    padding-top: -20px;;
     clear: left;
     font-family: 'Roboto', sans-serif;
 }
@@ -8,7 +15,6 @@
 .title{
   background-color: #222;
   width:100%;
-  box-sizing: border-box;
     margin: 0;
     padding: 20px;
 }
@@ -24,6 +30,14 @@
   font-size: 14pt;
     line-height: 16pt;
     margin: 0;
+}
+
+.stories h3{
+    font-size: 35px;
+    line-height: 37px;
+    font-weight: 900;
+    text-align: center;
+    color: #ccc;
 }
 
 .title h1{
@@ -48,6 +62,7 @@ div.portal{
     font-weight: 900;
     color: #fff;
     font-size: 8pt;
+    border:.25px solid #ccc;
 }
 
 img.image{
@@ -69,37 +84,28 @@ div.overhang{
     position: relative;
     width: 60px;
     height: 60px;
-    left: -20px;
-    top: -20px;
+    left: -5px;
+    top: 65px;
     font-size: 10pt;
-    color
-    
-    background-color: #222;
 }
 
 span.caption{
     float: clear;
 }
 
-/*CHANGES WHEN ADD CONTENT*/
-div.first{
-    background-color:#F59D32;
-}
-
-div.second{
-    background-color:#B41A40;
-}
-
-div.third{
-    background-color:#25A16F;
-}
-
 .stories{
  margin-top: 60px;
 }
 
-
-/*END CHANGE WHEN ADDING CONTENT AREA*/
+@media(min-width: 340px){
+    .wrapper{
+        margin-left: 12%;
+        margin-right: 12%;
+        clear: left;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+}
 
 
 @media(min-width: 760px){
@@ -125,6 +131,13 @@ div.third{
         font-weight: 900;
         font-size: 36pt;
         line-height:38pt;
+    }
+    
+    .stories h3{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 80px;
+    line-height: 82px;
     }
 
 }
