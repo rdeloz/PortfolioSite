@@ -1,13 +1,13 @@
 *{
     box-sizing: border-box;
-    border: 1px solid yellow;
+    
 }
 
 .wrapper{
   margin-left: 2%;
   margin-right: 2%;
     margin-top: -50px;
-    padding-top: -20px;;
+    padding-top: -20px;
     clear: left;
     font-family: 'Roboto', sans-serif;
 }
@@ -15,7 +15,8 @@
 .title{
   background-color: #222;
   width:100%;
-    margin: 0;
+    margin-left: -10px;
+    margin-right: -10px;
     padding: 20px;
 }
 
@@ -36,6 +37,7 @@
     font-size: 35px;
     line-height: 37px;
     font-weight: 900;
+    margin-top: 0px;
     text-align: center;
     color: #ccc;
 }
@@ -50,7 +52,9 @@
     background-color: #222;
     width: 100%;
     height: 70px;
-    margin: 0; 
+    margin-left: -10px;
+    margin-right: -10px;
+    border: 5px solid red;
 }
 
 div.portal{
@@ -82,10 +86,11 @@ li{
 
 div.overhang{
     position: relative;
+    margin: 0;
     width: 60px;
-    height: 60px;
-    left: -5px;
-    top: 65px;
+    height: 20px;
+    left: -10px;
+    top: 5px;
     font-size: 10pt;
 }
 
@@ -94,7 +99,7 @@ span.caption{
 }
 
 .stories{
- margin-top: 60px;
+ margin-top: 0;
 }
 
 @media(min-width: 340px){
